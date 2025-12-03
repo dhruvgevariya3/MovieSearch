@@ -6,7 +6,6 @@ const Result = ({ movie, isFav, toggleFavorite }) => {
 
   return (
     <div className="relative bg-[#1C1C1C] border border-[#292929] rounded-xl shadow-lg overflow-hidden hover:scale-[1.03] transition-transform duration-300">
-      {/* Heart */}
       <div
         className="absolute top-3 right-3 cursor-pointer bg-black/60 backdrop-blur-md p-2 rounded-full hover:bg-black/80 transition"
         onClick={() => toggleFavorite(movie)}
